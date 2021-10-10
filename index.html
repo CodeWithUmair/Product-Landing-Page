@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        .flex-container {
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <center>
+    <header id="header">
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#Phones">Phones</a>
+            <a class="nav-link" href="#Request-a-Coupon">Request a Coupon</a>
+            <a class="nav-link" href="#About-Us">About Us</a>
+        </nav>
+    </header>
+    <h1>Do Something Great</h1>
+        
+        <section id="Phones">
+            
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/46SbB0IHplE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </section>
+        
+        <section id="Request-a-Coupon">
+            <h2>Request a Coupon</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" placeholder="someone@email.com" name="email"></input>
+                <input id="submit" type="submit"></input>
+            </form>
+        </section>
+        <section id="About-Us">
+            <center>
+            <div class="flex-container">
+                <div><a href="https://www.samsung.com/pk/" target="_blank">samsung.pk</a></div>
+                <div><a href="https://www.youtube.com/c/Samsung" target="_blank">On youtube</a></div>
+                <div><a href="https://en.wikipedia.org/wiki/Samsung" target="_blank">On wikipedia</a></div>
+              </div>
+            </center>        
+        </section>
+
+        </center>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html> 
